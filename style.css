@@ -124,3 +124,63 @@
 .ex-5-square {
     transition: 5s;
 }
+
+/* ESERCIZIO 6 */
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+.ex-6-img {
+    transition: 5s;
+}
+
+/* ESERCIZIO 7 */
+
+.ex-7-img:hover {
+    filter: grayscale(60%) saturate(900%);
+}
+
+.ex-7-img {
+    transition: 5s;
+}
+
+/* ESERCIZIO 8 */
+
+.ex-8-img:hover {
+    border-radius: 10%;
+    filter: grayscale(60%) saturate(900%);
+}
+
+.ex-8-img {
+    transition: 5s;
+}
+
+/* ESERCIZIO 9 */
+
+.ex-9-img:hover {
+    border-radius: 10%;
+    filter: grayscale(60%) saturate(900%);
+    transform: scale(0.5);
+}
+
+.ex-9-img {
+    transition: 5s;
+}
+
+/* ESERCIZIO 10 */
+/* codepen docet */
+.ex-10-icon {
+    animation-iteration-count: infinite;
+    animation-duration: 5000ms;
+    animation-name: spin;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
