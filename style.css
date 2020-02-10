@@ -100,3 +100,27 @@
 .ex-3-square {
     transition: 5s;
 }
+
+/* ESERCIZIO 4 */
+
+.ex-4-square:hover {
+    opacity: 0%;
+}
+
+.ex-4-square {
+    transition: 5s;
+}
+
+/* ESERCIZIO 5 */
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
+.ex-5-square {
+    transition: 5s;
+}
