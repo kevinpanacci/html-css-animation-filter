@@ -92,3 +92,11 @@
 }
 
 /* ESERCIZIO 3 */
+
+.ex-3-square:hover {
+    border-radius: 100%;
+}
+
+.ex-3-square {
+    transition: 5s;
+}
